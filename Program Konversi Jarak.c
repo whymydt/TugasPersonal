@@ -5,7 +5,7 @@
 
 int main()
 {
-	char satuanKonversi[10], inputChar[13], option[10], satuanAwal[10], satuanAkhir[10], rangeInput[12] = "0123456789.";
+	char satuanKonversi[15], inputChar[13], option[20], satuanAwal[15], satuanAkhir[15], rangeInput[12] = "0123456789.";
 	double input, hasilKonversi;
 	int menu, valid, validCheck;
 	
