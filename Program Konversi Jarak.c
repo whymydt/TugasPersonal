@@ -10,9 +10,9 @@ int main()
 	int menu, valid, validCheck;
 	
 	printf("\033[0;32m===================================================================\n");
- 	printf("PROGRAM KONVERSI JARAK\n");
-	printf("===================================================================\033[0m\n\n");
-//	printf("Selamat datang di Program Konversi \n");
+ 	printf("\t\t\t\t\t  PROGRAM KONVERSI JARAK\n");
+	printf("==================================================================\n");
+	printf("Selamat datang di Program Konversi Jarak!\033[0m\n\n");
 
 	menu = 1;
 	while(menu == 1)
@@ -136,9 +136,10 @@ int main()
     }
 			// m = input*1000.00;
 			// cm = input*100000.00;
-		
-			printf("\n\033[0;32mHasil konversi jarak adalah : %.2lf %s\033[0m", hasilKonversi, satuanKonversi);
-			printf("\n\n\n\nApakah Anda ingin memulai program kembali? (1 Ya / 2 Tidak) : ");
+      	printf("\n\033[0;32m===================================================================");
+			printf("\nHasil konversi jarak adalah : %.2lf %s", hasilKonversi, satuanKonversi);
+      printf("\n==================================================================\033[0m\n");
+			printf("\n\nApakah Anda ingin memulai program kembali? (1 Ya / 2 Tidak) : ");
 			scanf("%s", &option);
 			
 		}
@@ -150,7 +151,7 @@ int main()
 			printf("Program dibuat untuk memenuhi tugas personal 1 mata kuliah\nAlgorithm and Programming yang diampu oleh dosen bapak Tri Asih Budiono.\n");
 			printf("\n\033[0;36mProgram dibuat oleh : \n");
 			printf("Nama\t\t: Wahyu Mentari Mayadita\n");
-			printf("NIM\t\t: 111111111\n");
+			printf("NIM\t\t\t: 111111111\n");
 			printf("Kelas\t\t: JCCA\033[0m\n");
 			printf("------------------------------------------------------------\n");
 			printf("Apakah Anda ingin memulai program? (1 Ya / 2 Tidak) : ");
