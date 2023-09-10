@@ -91,7 +91,6 @@ int main()
     			}
     			while (valid != strlen(inputChar))
 				{
-      				printf("Valid : %d\n", valid);
 					printf("\033[0;31mInput tidak valid, hanya diizinkan angka bulat dan desimal\033[0m\n");
 					valid = 0;
 					validCheck = 0;
